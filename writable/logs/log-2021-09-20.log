@@ -1,0 +1,8 @@
+CRITICAL - 2021-09-20 07:59:33 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\Website-HAiYU\projectWeb\app\Controllers\Subject.php on line 58
+#0 C:\xampp\htdocs\Website-HAiYU\projectWeb\app\Controllers\Subject.php(58): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\Website-HAiYU\projectWeb\system\CodeIgniter.php(920): App\Controllers\Subject->enroll()
+#2 C:\xampp\htdocs\Website-HAiYU\projectWeb\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subject))
+#3 C:\xampp\htdocs\Website-HAiYU\projectWeb\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Website-HAiYU\projectWeb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Website-HAiYU\projectWeb\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
